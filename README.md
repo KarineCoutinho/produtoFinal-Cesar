@@ -28,9 +28,9 @@ Equação geral:
 
 Equação final:
 
-        - cifra = (x -65 + n)%26 +65 (para letras maiúsculas)
+        cifra = (x -65 + n)%26 +65 (para letras maiúsculas)
         
-        - cifra = (x -97 + n)%26 +97 (para letras minúsculas)
+        cifra = (x -97 + n)%26 +97 (para letras minúsculas)
         
 
 Fluxograma -  função cipher
