@@ -1,6 +1,8 @@
 Laboratória 
 Sprint 1 - Produto Final
 
+![Fluxo do código](cesar.png)
+
 CIFRA DE CÉSAR    
 Essa página web, escrita em JavaScript, recebe um TEXTO de um prompt() e retorna para o usuário a mesma mensagem criptografada de acordo com o a Cifra de César com o parâmetro de deslocamento de 33 espaços à direita.
 
