@@ -20,6 +20,7 @@ Por exemplo:
 OBS: Como no código ASCII o alfabeto maiusculo começa na posição 65 e minusculo na posição 97, e não na posição 0, é necessário algumas adaptações nas fórmulas. 
 
 Esse código tem dua funções:
+
 1). Criptografar : function cipher
 Equação geral: 
 
