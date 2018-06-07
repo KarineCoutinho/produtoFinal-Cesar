@@ -6,6 +6,7 @@ function cipher(message){
     return cipher(prompt('Por favor, digite uma mensagem!'));
   }
   for(letter of message){
+    //x é a posição da letra no código ASCII
     var x = letter.charCodeAt();
     if(x>=65 && x<=90){
       var xCesar = (x -65 + 33)%26 +65;
@@ -24,6 +25,7 @@ function cipher(message){
 
 function decipher(mensage){
   for(letter of mensage){
+    //y é a posição da letra codificada no código ASCII
     var y = letter.charCodeAt();
     if(y>=65 && y<=90){
       var yOriginal = (y +65 - 33)%26 +65;
