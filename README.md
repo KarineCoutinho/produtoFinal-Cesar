@@ -9,9 +9,9 @@ Após criptografar, a segunda função, que tem como parâmetro o resultado da p
 
 Variáveis:
 
-letter: letra original;
-x: a posição do caracter no código ASCII;
-n: parâmetro fixo (Para essa função n=33);
+- letter: letra original;
+- x: a posição do caracter no código ASCII;
+- n: parâmetro fixo (Para essa função n=33);
 
 Por exemplo:
 - Texto original: ABCDEFGHIJKLMNOPQRSTUVWXYZ
