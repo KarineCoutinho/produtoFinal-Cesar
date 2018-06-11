@@ -20,7 +20,7 @@ function cipher(message){
     else {
       return cipher(prompt('Caracter inválido. Por favor, digite apenas letras!\nMensagem:'));
     }
-  } return cesarSetence;
+  } return alert (cesarSetence);
 }cipher(prompt('Mensagem:'));
 
 function decipher(mensage){
@@ -37,5 +37,5 @@ function decipher(mensage){
       cesarDeciphered += letterOriginal;
     } 
   }   
-  return cesarDeciphered;
+  return alert (cesarDeciphered);
 }decipher(cesarSetence)
